@@ -1,0 +1,28 @@
+@import "./variables";
+
+main {
+  padding: 3rem;
+  font-family: $primary-font;
+  color: $secondary-color;
+  h1,
+  h2,
+  h4,
+  h5,
+  h6 {
+    font-family: $secondary-font;
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  h3 {
+    margin: 2rem 0;
+  }
+
+  a {
+    cursor: pointer;
+    color: $secondary-color;
+    &:hover {
+      color: white;
+    }
+  }
+}

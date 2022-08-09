@@ -1,0 +1,89 @@
+@import "../sass/variables";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  padding: 0 2rem;
+  background-color: $secondary-color;
+  color: $primary-color;
+  text-transform: capitalize;
+
+  h2 {
+    font-family: $secondary-font;
+  }
+
+  nav {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: $primary-color;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 2rem;
+
+    @media (max-width: 480px) {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}
+
+nav a {
+  margin: 0 2rem;
+  color: $primary-color;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-family: $primary-font;
+
+  &:hover {
+    color: $primary-color-light;
+    border-bottom: 2px solid $primary-color-light;
+  }
+}
+
+@media (max-width: 480px) {
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: #212121;
+    transition: 0.75s;
+    transform: translateY(-100vh);
+    z-index: 1000;
+
+    a {
+      color: $primary-color;
+      font-size: 2.5rem;
+      margin: 2rem 0;
+    }
+
+    .nav-close-btn {
+      position: absolute;
+      top: 2rem;
+      right: 6rem;
+      font-size: 4rem;
+    }
+  }
+
+  .responsive-nav {
+    transform: none;
+  }
+}

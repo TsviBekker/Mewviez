@@ -1,0 +1,98 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Fight Club",
+      "description": "A depressed man (Edward Norton) suffering from insomnia meets a strange soap salesman named Tyler Durden (Brad Pitt) and soon finds himself living in his squalid house after his perfect apartment is destroyed. The two bored men form an underground club with strict rules and fight other men who are fed up with their mundane lives. Their perfect partnership frays when Marla (Helena Bonham Carter), a fellow support group crasher, attracts Tyler's attention.",
+      "releaseYear": 2001,
+      "isWatched": true,
+      "isLiked": true,
+      "picture": "/images/fight-club.jpg"
+    },
+    {
+      "id": 2,
+      "name": "8 Mile",
+      "description": "The people of Detroit know 8 Mile as the city limit, a border, a boundary. It is also a psychological dividing line that separates Jimmy Smith Jr. (Eminem) from where and who he wants to be. A provocative fictional examination of a critical week in Jimmy's life.",
+      "releaseYear": 2000,
+      "isWatched": false,
+      "isLiked": false,
+      "picture": "/images/8-mile.jpg"
+    },
+    {
+      "id": 3,
+      "name": "American History",
+      "description": "Judith Ortiz Cofer's short story \"American History\" is a coming-of-age tale set in the early 1960s, when racism and segregation were still in full bloom. The story's fourteen-year-old protagonist, Elena, is a Puerto Rican immigrant living with her family in Paterson, New Jersey, when President John F.",
+      "releaseYear": 2005,
+      "isWatched": true,
+      "isLiked": false,
+      "picture": "/images/american-history.jpg"
+    },
+    {
+      "description": "[Hebrew] Three friends go to Colombia to save one of their sons after he's kidnapped by a drug kingpin.",
+      "isWatched": false,
+      "isLiked": true,
+      "name": "Saving Shuli",
+      "picture": "https://www.roshpinacine.com/wp-content/uploads/2021/11/%D7%9C%D7%A9%D7%97%D7%A8%D7%A8-%D7%90%D7%AA-%D7%A9%D7%95%D7%9C%D7%99.jpg",
+      "releaseYear": "2021",
+      "id": 8
+    },
+    {
+      "description": "Although they made their way through high school successfully, an investigation at a local college brings big changes for undercover officers Jenko (Channing Tatum) and Schmidt (Jonah Hill). When Jenko meets a kindred spirit on the football team and Schmidt infiltrates the bohemian art-major scene, both men begin to question their partnership. Not only do they have to crack the case, but now the two overgrown adolescents must learn how to behave like adults.",
+      "isWatched": true,
+      "name": "Jump Street 22",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/1/1d/22_Jump_Street_Poster.png",
+      "releaseYear": "2014",
+      "id": 9
+    },
+    {
+      "description": "When cops Schmidt (Jonah Hill) and Jenko (Channing Tatum) join the secret Jump Street unit, they use their youthful appearances to go under cover as high-school students. They trade in their guns and badges for backpacks, and set out to shut down a dangerous drug ring. But, as time goes on, Schmidt and Jenko discover that high school is nothing like it was just a few years earlier -- and, what's more, they must again confront the teenage terror and anxiety they thought they had left behind.",
+      "isWatched": false,
+      "name": "Jump Street 21",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/9/93/21JumpStreetfilm.jpg",
+      "releaseYear": "2012",
+      "id": 10,
+      "isLiked": true
+    },
+    {
+      "description": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
+      "isWatched": false,
+      "name": "Interstellar",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
+      "releaseYear": "2012",
+      "id": 11
+    },
+    {
+      "description": "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).",
+      "isWatched": true,
+      "name": "Forrest Gump",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+      "releaseYear": "1994",
+      "id": 12,
+      "isLiked": true
+    },
+    {
+      "description": "Stanley Kubrick's take on the Vietnam War follows smart-aleck Private Davis (Matthew Modine), quickly christened \"Joker\" by his foul-mouthed drill sergeant (R. Lee Ermey), and pudgy Private Lawrence (Vincent D'Onofrio), nicknamed \"Gomer Pyle,\" as they endure the rigors of basic training. Though Pyle takes a frightening detour, Joker graduates to the Marine Corps and is sent to Vietnam as a journalist, covering -- and eventually participating in -- the bloody Battle of Hué.",
+      "isWatched": false,
+      "name": "Full Metal Jacket",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/9/99/Full_Metal_Jacket_poster.jpg",
+      "releaseYear": "1985",
+      "id": 13
+    },
+    {
+      "description": "aba",
+      "isWatched": false,
+      "name": "something made up",
+      "picture": "/images/no-image.png",
+      "releaseYear": "2000",
+      "id": 14
+    },
+    {
+      "description": "Two inseparable best friends navigate the last weeks of high school and are invited to a gigantic house party. Together with their nerdy friend, they spend a long day trying to score enough alcohol to supply the party and inebriate two girls in order to kick-start their sex lives before they go off to college. Their quest is complicated after one of them falls in with two inept cops who are determined to show him a good time.",
+      "isWatched": false,
+      "name": "Superbad",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
+      "releaseYear": "2007",
+      "id": 15
+    }
+  ]
+}
