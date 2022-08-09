@@ -1,5 +1,6 @@
 import React from "react";
 import "../sass/home.scss";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 export const Home = () => {
   return (
@@ -9,8 +10,17 @@ export const Home = () => {
         welcome to mewvies, an app where you can keep track of your favorite
         movies
       </h3>
-      <a href="linkedin.com/in/tsvi-bekker-174212235">
-        <p>Made by Tsvika Bekker</p>
+      <a href="https://www.linkedin.com/in/tsvi-bekker-174212235/">
+        <p>
+          Made by Tsvika Bekker <AiFillLinkedin />
+        </p>
+      </a>
+
+      <a href="https://github.com/TsviBekker/Mewviez">
+        <p>
+          GitHub
+          <AiFillGithub />
+        </p>
       </a>
 
       <h3>Made with:</h3>
